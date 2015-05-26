@@ -1,0 +1,29 @@
+#echo 'in .sh_custom'
+
+alias msf="cd /var/www/medispend.fr/master/docroot/sites/all/modules/custom/;";
+alias msfa="cd /var/www/medispend.fr/master/docroot/sites/ariad.local.medispend.fr/;";
+alias msd="cd /var/www/dia/docroot/sites/all/modules/cms;";
+alias msu="cd /var/www/medispend/master/docroot/sites/;";
+alias msul="cd /var/www/medispend/master/docroot/sites/lifecell.msmultilocal.com/;";
+
+alias misc="cd /_/Workspace/misc/;ls;"
+alias _="cd /_/;ls;"
+
+alias sl=slap;
+alias sub=sublime3;
+
+alias giff='git difftool -g ';
+#alias rm="echo 'use trash instead! #'"
+
+#if []; then
+#  export PATH="~/node_modules/.bin:$PATH" 
+#fi
+
+alias D="cd ~/Desktop; ls;"
+alias dl="cd ~/Downloads; ls;"
+
+alias ddump="drupal-dump -u root -p root -n ";
+alias ddump2='drupal-dump -u gengel -p dPF4HPDCQwyM -U gengel -h msmultidev.com -n ';
+alias my="title mysql; mysql -uroot -proot "
+
+alias lazygit="git add -A; git commit -m '.'; git push; "
