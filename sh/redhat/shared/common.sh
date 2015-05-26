@@ -6,8 +6,7 @@ yum install sudo -y;
 
 sudo yum install yum-plugin-fastestmirror -y;
 
-# u better have this fool
-sudo yum install vi vim nano wget ack unzip  -y;
+sudo yum install vi vim nano wget ack unzip mlocate -y;
 
 sudo yum install php-cli -y;
 sudo yum install clamav -y;
