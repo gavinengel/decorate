@@ -25,6 +25,9 @@ sudo systemctl enable httpd.service;
 # /swap.dat      none    swap    sw      0       0 
 
 
+# mongo
+sudo cp ./shared/etc/yum.repos.d/mongodb-org-3.0.repo /etc/yum.repos.d/mongodb-org-3.0.repo;
+sudo yum install -y mongodb-org;
 
 # for Drupal
 sudo yum install gd gd-devel php-gd php-mbstring php-xml -y;
