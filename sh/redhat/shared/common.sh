@@ -1,5 +1,7 @@
 #/bin/sh
 
+yum install sudo -y;
+
 #todo, what is yum equivalent#sudo apt-get update;
 
 sudo yum install yum-plugin-fastestmirror -y;

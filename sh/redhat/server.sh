@@ -1,5 +1,7 @@
 #!/bin/sh
 
+./shared/common.sh;
+
 sudo yum install httpd php php-mcrypt php-pdo -y;
 
 # LAMP: Centos6

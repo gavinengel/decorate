@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # common packages
-/home/gavin/Dropboxes/scripts/droppers/yum-get-common.sh;
+./shared/common.sh;
 #
 # new repos
 #hmm#sudo cp /home/gavin/Dropboxes/scripts/droppers/repos/google-chrome.repo /etc/yum.repos.d/;
