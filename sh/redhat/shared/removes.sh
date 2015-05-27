@@ -9,7 +9,7 @@ sudo mkdir /tmp/clean-locale; sudo mv /usr/share/locale/en* /tmp/clean-locale; s
 #
 
 # use this instead: ~/bin/node/bin/node and /npm with the sh_common aliases.  Download binary (not source) from nodejs.org
-sudo yum remove npm nodejs -y;
+# no, root should have the default repo packages: sudo yum remove npm nodejs -y;
 
 # use freeoffice instead ( http://www.freeoffice.com/  )
 #sudo yum remove libreoffice* -y;
