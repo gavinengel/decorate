@@ -11,6 +11,9 @@ alias vin="vim -u NONE -N "
 alias composer="php /home/gavin/bin/composer.phar"
 alias gits="git status"
 alias nodebin="cd ~/bin/node/lib/; ll;"
+alias node="$HOME/bin/node/bin/node";
+alias npm="$HOME/bin/node/bin/npm";
+
 
 ########################################
 source ~/.sh_custom;
