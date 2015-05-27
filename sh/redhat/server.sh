@@ -1,14 +1,15 @@
 #!/bin/sh
 
 ./shared/common.sh;
+./shared/firewall.sh;
 
 sudo yum install httpd php php-mcrypt php-pdo -y;
 
-# LAMP: Centos6
-sudo yum install mysql mysql-server php-mysql -y;
-sudo chkconfig mysqld on; # start on boot
-sudo service mysqld start;
-# /usr/bin/mysqladmin -u root password 'new-password'; # run once
+## LAMP: Centos6
+#sudo yum install mysql mysql-server php-mysql -y;
+#sudo chkconfig mysqld on; # start on boot
+#sudo service mysqld start;
+## /usr/bin/mysqladmin -u root password 'new-password'; # run once
 
 # LAMP: Centos7
 sudo yum install mariadb-server mariadb -y;
@@ -23,7 +24,6 @@ sudo systemctl enable httpd.service;
 # swapon /swap.dat
 ## Edit the /etc/fstab, and the following entry.
 # /swap.dat      none    swap    sw      0       0 
-
 
 # mongo
 sudo cp ./shared/etc/yum.repos.d/mongodb-org-3.0.repo /etc/yum.repos.d/mongodb-org-3.0.repo;
