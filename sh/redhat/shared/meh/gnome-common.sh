@@ -11,11 +11,5 @@ gsettings set org.gnome.desktop.background show-desktop-icons true;
 #nautilus -q;
 
 
-npm config set init.author.name "Gavin Engel"
-npm config set init.author.email gavin@engel.com 
-npm config set init.author.url http://www.gavinengel.com/
-npm config set init.license MIT
-
-
 sudo yum install levien-inconsolata-fonts package -y;
 

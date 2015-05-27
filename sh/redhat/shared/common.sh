@@ -34,7 +34,6 @@ sudo yum install libxml2-devel -y;
 
 # EPEL and node
 sudo yum install epel-release -y;
-sudo yum install npm -y;
 
 
 

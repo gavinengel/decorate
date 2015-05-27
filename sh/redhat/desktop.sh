@@ -74,5 +74,3 @@ sudo yum install gstreamer1-vaapi -y;
 # for npm slap
 sudo yum install xclip -y;
 
-# node stuff
-sudo npm install -g slap;

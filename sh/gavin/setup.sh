@@ -13,3 +13,8 @@ ln -s ~/decorate/sh/gavin/aliases/.bash_custom ~/;
 ln -s ~/decorate/sh/gavin/aliases/.zsh_common ~/;
 ln -s ~/decorate/sh/gavin/aliases/.zsh_custom ~/;
 
+npm config set init.author.name "Gavin Engel"
+npm config set init.author.email gavin@engel.com 
+npm config set init.author.url http://www.gavinengel.com/
+npm config set init.license MIT
+
