@@ -26,4 +26,4 @@ alias ddump="drupal-dump -u root -p root -n ";
 alias ddump2='drupal-dump -u gengel -p dPF4HPDCQwyM -U gengel -h msmultidev.com -n ';
 alias my="title mysql; mysql -uroot -proot "
 
-alias lazygit="git add -A; git commit -m '.'; git push; "
+alias lazygit="git pull; git add -A; git commit -m '.'; git push; "
