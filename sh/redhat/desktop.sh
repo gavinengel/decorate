@@ -71,6 +71,9 @@ sudo yum install gstreamer-plugin-crystalhd -y;
 sudo yum install gstreamer1-libav -y;
 sudo yum install gstreamer1-vaapi -y;
 
+# disable background update downloading
+gsettings set org.gnome.software download-updates false;
+
 # for npm slap
 sudo yum install xclip -y;
 
