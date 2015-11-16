@@ -1,0 +1,4 @@
+### 2015-03-12 ###
+#echo 'in .zsh_common';
+set -k;
+

@@ -1,0 +1,45 @@
+## mysql - set query cache to at *least* 16M 
+# vi /etc/mysql/my.cnf
+#  cd;wget https://raw.github.com/rackerhacker/MySQLTuner-perl/master/mysqltuner.pl;chmod +x mysqltuner.pl;perl mysqltuner.pl;
+
+#  cd;wget https://raw.github.com/pdufault/mysqlfragfinder/master/mysqlfragfinder.sh;chmod +x mysqlfragfinder.sh;./mysqlfragfinder.sh --user root;
+
+# 
+
+query_cache_size = 16M
+query_cache_type=1
+query_cache_limit=1M
+
+mysql> show variables like 'query%';SHOW STATUS LIKE 'Qc%';# What's up with MySQL cache?
+
+How to install MySQL on fedora
+Use yum to install both mysql command line tool and the server:yum -y install mysql mysql-server
+Enable the MySQL service:/sbin/chkconfig mysqld on
+Start the MySQL server:/sbin/service mysqld start
+Set the MySQL root password:mysqladmin -u root password 'new-password'The quotes around the new password are required.
+
+# after mysql install, and you have the root pass, run this: $ mysql_secure_installation
+
+
+#also, check /etc/mysql/my.cnf, I had ot make this change to UTUC:
+#gje customedit 2013-11-26; could not connect Mailware#bind-address             = 127.0.0.1
+bind-address    = 0.0.0.0
+
+# rhel, open firewall to mysql:
+$ sudo iptables -A INPUT -i eth0 -p tcp -m tcp --dport 3306 -j ACCEPT
+$ sudo service iptables save
+
+
+
+
+#####################################
+##### APACHE #######################
+###################################
+
+In this file: /etc/apache2/apache2.conf
+
+You will want to change: 
+
+KeepAlive Off
+
+MaxClients 

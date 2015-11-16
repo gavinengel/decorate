@@ -1,0 +1,23 @@
+#echo 'in .sh_custom'
+
+alias misc="cd /_/Workspace/misc/;ls;"
+alias _="cd /_/;ls;"
+
+#if /gavin/ exists: alias composer="php /home/gavin/bin/composer.phar"
+alias sl=slap;
+#alias subl=sublime3;
+
+alias giff='git difftool -g ';
+#alias rm="echo 'use trash instead! #'"
+
+#if []; then
+#  export PATH="~/node_modules/.bin:$PATH" 
+#fi
+
+alias D="cd ~/Desktop; ls;"
+alias dl="cd ~/Downloads; ls;"
+
+alias ddump="drupal-dump -u root -p root -n ";
+alias my="title mysql; mysql -uroot -proot "
+
+alias lazygit="git pull; git add -A; git commit -m '.'; git push; "
