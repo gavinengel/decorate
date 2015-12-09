@@ -6,7 +6,7 @@ sudo apt-get install man locate make -y;
 sudo apt-get install powertop iotop -y; # TOPS!
 sudo apt-get install ufw -y;
 sudo apt-get install apache2 libapache2-mod-auth-mysql  mysql-server -y;
-sudo apt-get install php5 php5-suhosin php5-cli  php-apc  php5-mysql  php5-gd php5-curl php5-mcrypt php-pear php5-xdebug -y;
+sudo apt-get install php5 php5-cli  php-apc  php5-mysql  php5-gd php5-curl php5-mcrypt php-pear php5-xdebug -y;
 
 ## begin php cacheing
 sudo apt-get install php5-dev libpcre3-dev libmagic-dev memcached php5-memcache -y;

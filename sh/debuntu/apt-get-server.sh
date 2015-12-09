@@ -4,7 +4,7 @@ sudo locale-gen en_US.UTF-8;
 sudo apt-get install man locate make vim -y; # stuff everyone should have!
 sudo apt-get install ssh -y;
 sudo apt-get install heirloom-mailx -y; # for CLI email sending (bsd-mailx doesn't support -r), example: # mailx -s "Testing email via mailx" -r sender@example.com destination@gmail.com < ~/.bashrc
-sudo apt-get install powertop iotop nethogs iptraf trafshow -y; # tops/memory/traffic monitoring
+sudo apt-get install powertop iotop nethogs iptraf -y; # tops/memory/traffic monitoring
 sudo apt-get install ufw -y;
 sudo apt-get install apache2 libapache2-mod-auth-mysql  mysql-server -y;
 sudo apt-get install apache2-suexec -y; # fixes: Warning: SuexecUserGroup directive requires SUEXEC wrapper.
@@ -13,7 +13,7 @@ sudo apt-get install libapache2-mod-fcgid -y; # fixes: Cannot load /usr/lib/apac
 sudo apt-get install dovecot-common -y; # instead of apt-get install postfix (this is for virtualmin)
 
 #below line confilicts with zend-server:#
-sudo apt-get install php5 php5-suhosin php-apc  php5-mysql  php5-gd php5-curl php5-mcrypt php-pear php5-xdebug -y;
+sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl php5-mcrypt php-pear php5-xdebug -y;
 
 ## begin php cacheing
 sudo apt-get install php5-dev libpcre3-dev libmagic-dev memcached php5-memcache -y;
