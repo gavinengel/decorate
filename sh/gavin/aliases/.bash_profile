@@ -1,8 +1,11 @@
 # .bash_profile
+LOADED_BASH_PROFILE=1;
 
 # Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-	. ~/.bashrc
+if [ -z "$LOADED_BASHRC" ]; then
+	if [ -f ~/.bashrc ]; then
+		. ~/.bashrc
+	fi
 fi
 
 source ~/.sh_common;

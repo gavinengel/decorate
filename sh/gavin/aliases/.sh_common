@@ -4,12 +4,14 @@
 if [[ ! $PATH =~ .*/bin/node/lib/node_modules/.bin* ]]; then export PATH="$HOME/bin/node/lib/node_modules/.bin:$PATH";fi; 
 if [[ ! $PATH =~ .*/.composer/vendor/bin* ]]; then export PATH="$HOME/.composer/vendor/bin:$PATH";fi;
 
+alias ll="ls -Ahl"
 alias vim="vim --startuptime ~/.vim.log "
 alias vi=vim
 alias h='history'
 alias vin="vim -u NONE -N "
 alias gits="git status"
 alias lib="cd ~/bin/node/lib/; ll;"
+
 #alias node="$HOME/bin/node/bin/node";
 ##permission denied???alias npm="$HOME/bin/node/lib/node_modules/.bin/npm";
 

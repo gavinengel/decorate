@@ -21,3 +21,5 @@ npm config set init.author.email gavin@engel.com
 npm config set init.author.url http://www.gavinengel.com/
 npm config set init.license MIT
 
+
+echo "Now, use the .bashrc included in decorate/sh/gavin/aliases.";

@@ -13,11 +13,11 @@ sudo apt-get install libapache2-mod-fcgid -y; # fixes: Cannot load /usr/lib/apac
 sudo apt-get install dovecot-common -y; # instead of apt-get install postfix (this is for virtualmin)
 
 #below line confilicts with zend-server:#
-sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl php5-mcrypt php-pear php5-xdebug -y;
+sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl mcrypt php5-mcrypt php-pear php5-xdebug php5-xsl -y;
+sudo php5enmod mcrypt -y;
 
 ## begin php cacheing
 sudo apt-get install php5-dev libpcre3-dev libmagic-dev memcached php5-memcache -y;
-#old#sudo pecl install apc; pecl install fileinfo;#pecl stuff
 sudo apt-get install php-apc -y;
 sudo /etc/init.d/apache2 restart;
 
@@ -64,16 +64,8 @@ sudo /etc/init.d/apache2 restart;
 
 ## end php cacheing
 
-#breaks Plesk!#sudo apt-get install postfix -y;
-#breaks Plesk?#sudo apt-get install dovecot-common dovecot-imapd dovecot-pop3d -y;
-#pop3/imap?
-#https://help.ubuntu.com/6.06/ubuntu/serverguide/C/email-services.html
-#sudo /etc/init.d/dovecot start;
-
 sudo apt-get install unzip p7zip -y;
 sudo apt-get install lynx elinks -y;
-
-
 sudo apt-get install rsync -y;
 
 # UFW #
@@ -85,7 +77,6 @@ sudo ufw allow 443/tcp;
 sudo ufw allow 10000/tcp; # virtualmin
 sudo ufw allow 20000/tcp; # usermin
 sudo ufw allow 3306/tcp; # mysql
-
 
 
 #apache mods
