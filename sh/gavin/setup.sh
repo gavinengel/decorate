@@ -1,7 +1,9 @@
 #!/bin/sh
 
-git config --global user.name "Gavin Engel"
-git config --global user.email gavin@engel.com
+git config --global user.name "Gavin Engel";
+git config --global user.email gavin@engel.com;
+git config --global push.default simple;
+git config --global url."https://".insteadOf git://; # solves github timeouts on npm install
 
 ##sudo adduser -m gavin;
 
