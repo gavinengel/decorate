@@ -81,6 +81,7 @@ sudo ufw allow 3306/tcp; # mysql
 
 #apache mods
 sudo a2enmod rewrite;
+sudo a2enmod vhost_alias;
 sudo /etc/init.d/apache2 restart;
 
 ###########################################################################
