@@ -41,4 +41,7 @@ sudo apt-get install gparted -y;
 #smb
 sudo ufw allow 139/tcp;sudo ufw allow 445/tcp;sudo ufw allow 137/udp;sudo ufw allow 138/udp;
 
+# block smtp so emails aren't sent accidentally
+sudo ufw deny out 25;
+
 /home/gavin/decorate/sh/debuntu/apt-get-removes.sh;
