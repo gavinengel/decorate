@@ -3,16 +3,16 @@
 ./shared/common.sh;
 ./shared/firewall.sh;
 
-sudo yum install httpd php php-mcrypt php-pdo -y;
+sudo dnf install httpd php php-mcrypt php-pdo -y;
 
 ## LAMP: Centos6
-#sudo yum install mysql mysql-server php-mysql -y;
+#sudo dnf install mysql mysql-server php-mysql -y;
 #sudo chkconfig mysqld on; # start on boot
 #sudo service mysqld start;
 ## /usr/bin/mysqladmin -u root password 'new-password'; # run once
 
 # LAMP: Centos7
-sudo yum install mariadb-server mariadb -y;
+sudo dnf install mariadb-server mariadb -y;
 sudo systemctl enable mariadb.service;
 sudo systemctl enable httpd.service;
 # once: sudo mysql_secure_installation;
@@ -27,11 +27,11 @@ sudo systemctl enable httpd.service;
 
 # mongo
 sudo cp ./shared/etc/yum.repos.d/mongodb-org-3.0.repo /etc/yum.repos.d/mongodb-org-3.0.repo;
-sudo yum install -y mongodb-org;
+sudo dnf install -y mongodb-org;
 
 # for Drupal
-sudo yum install gd gd-devel php-gd php-mbstring php-xml -y;
+sudo dnf install gd gd-devel php-gd php-mbstring php-xml -y;
 #apache mods
 sudo apachectl restart;
 
-sudo yum install fail2ban -y;
+sudo dnf install fail2ban -y;

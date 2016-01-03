@@ -13,10 +13,10 @@ setup; # in Network Configuration, set hostname, Primary DNS to 8.8.8.8 and Seco
 sudo rm /etc/localtime;sudo ln -sf /usr/share/zoneinfo/EST /etc/localtime;
 
 sudo yum update;
-sudo yum install make vim lynx -y; # stuff everyone should have!
+sudo dnf install make vim lynx -y; # stuff everyone should have!
 
 # APC #
-sudo yum install gcc pcre-devel php-pear php-devel httpd-devel -y;sudo pecl channel-update pecl.php.net;sudo pecl install apc; # accept defaults.
+sudo dnf install gcc pcre-devel php-pear php-devel httpd-devel -y;sudo pecl channel-update pecl.php.net;sudo pecl install apc; # accept defaults.
 # make sure this line is in /etc/php.ini: extension=apc.so
 sudo service httpd restart;
 
