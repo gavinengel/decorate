@@ -1,4 +1,5 @@
-#echo 'in .sh_custom'
+#!/bin/sh
+##echo 'in .sh_custom'
 
 alias misc="cd /_/Workspace/misc/;ls;"
 alias _="cd /_/;ls;"

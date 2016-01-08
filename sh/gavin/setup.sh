@@ -15,7 +15,9 @@ ln -sf ~/decorate/sh/gavin/aliases/.bash_common ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.bash_custom ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.zsh_common ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.zsh_custom ~/;
-## then, add to end of .zshrc and .bash_profile:
+ln -sf ~/decorate/sh/gavin/aliases/.zshrc ~/;
+
+## then, add to end of .bash_profile:
 # source ~/.sh_common
 
 npm config set init.author.name "Gavin Engel"
