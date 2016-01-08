@@ -11,5 +11,5 @@ gsettings set org.gnome.desktop.background show-desktop-icons true;
 #nautilus -q;
 
 
-sudo yum install levien-inconsolata-fonts package -y;
+sudo dnf install levien-inconsolata-fonts package -y;
 
