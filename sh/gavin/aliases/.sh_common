@@ -1,10 +1,11 @@
-#echo 'in .sh_common'
+##echo 'in .sh_common'
 
 ### if [[ ! $PATH =~ .*/bin/_npm/node_modules/.bin* ]]; then export PATH="$HOME/bin/_npm/node_modules/.bin:$PATH";fi; 
 if [[ ! $PATH =~ .*/bin/node/lib/node_modules/.bin* ]]; then export PATH="$HOME/bin/node/lib/node_modules/.bin:$PATH";fi; 
 if [[ ! $PATH =~ .*/.composer/vendor/bin* ]]; then export PATH="$HOME/.composer/vendor/bin:$PATH";fi;
 
-alias ll="ls -Ahl"
+alias la="ls -Ahl --color"
+alias ll="ls -Ahl --color"
 alias vim="vim --startuptime ~/.vim.log "
 alias vi=vim
 alias h='history'
