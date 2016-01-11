@@ -29,5 +29,9 @@ alias lazygit="git pull; git add -A; git commit -m '.'; git push; "
 # sudo useradd -rM www -g www 2>/dev/null;
 alias wwwperm="sudo useradd -rM www -g www 2>/dev/null; sudo chown -R www:www /var/www ;"
 
+# docker perms
+alias containerperm="sudo useradd -rM container -g container 2>/dev/null; sudo mkdir /mnt/container 2>/dev/null; sudo chown -R container:container /mnt/container ;"
+
+
 alias dls='sudo docker ps';
 dssh () { sudo docker exec -i -t "$@" bash; }
