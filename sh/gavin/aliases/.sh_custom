@@ -17,6 +17,13 @@ alias giff='git difftool -g ';
 alias D="cd ~/Desktop; ls;"
 alias dl="cd ~/Downloads; ls;"
 
-alias my="title mysql; mysql -uroot -proot "
+alias my="title mysql; mysql -uroot -p "
 
 alias lazygit="git pull; git add -A; git commit -m '.'; git push; "
+
+# also this? #sudo chmod 2775 /var/www;
+# sudo usermod -a -G www www-data; # Ubuntu / Apache
+# sudo usermod -a -G www apache; # RHEL / Apache
+# the sudo find commands cause a lot of git modifications:  sudo find /var/www -type d -exec chmod 2775 {} +; sudo find /var/www -type f -exec chmod 0664 {} +;
+# sudo useradd -rM www -g www 2>/dev/null;
+alias wwwperm="sudo useradd -rM www -g www 2>/dev/null; sudo chown -R www:www /var/www ;"
