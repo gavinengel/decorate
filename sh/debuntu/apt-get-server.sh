@@ -13,6 +13,7 @@ sudo apt-get install libapache2-mod-fcgid -y; # fixes: Cannot load /usr/lib/apac
 sudo apt-get install dovecot-common -y; # instead of apt-get install postfix (this is for virtualmin)
 
 #below line confilicts with zend-server:#
+sudo apt-get install lamp-server^;
 sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl mcrypt php5-mcrypt php-pear php5-xdebug php5-xsl -y;
 sudo php5enmod mcrypt -y;
 

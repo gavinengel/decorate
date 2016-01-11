@@ -17,7 +17,7 @@
 #hmm#sudo dnf install google-chrome-beta -y;
 #
 #
-#hmm#sudo dnf install fusion-icon xcalib -y;
+#sudo dnf install xcalib -y;
 #hmm#sudo dnf install gnome-tweak-tool -y;
 sudo dnf install geany -y;
 #something breaks us precious#sudo dnf install gnome-shell-extensio* -y;
