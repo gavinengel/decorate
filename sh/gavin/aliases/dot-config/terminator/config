@@ -4,9 +4,10 @@
 [profiles]
   [[default]]
     use_system_font = False
+    font = Monospace 8
     background_image = None
     foreground_color = "#ffffff"
-    font = Monospace 8
+    copy_on_selection = True
     background_color = "#630000"
     scrollback_infinite = True
 [layouts]
