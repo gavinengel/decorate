@@ -1,0 +1,315 @@
+---
+__PAC__EXPORTED__FULL__: 1
+defaults:
+  allow more instances: 1
+  append group name: 1
+  audible bell: ''
+  auto accept key: 1
+  auto cluster: {}
+  auto hide connections list: ''
+  auto save: ''
+  autostart shell upon PAC start: ''
+  back color: '#000000000000'
+  bold color: '#cc62cc62cc62'
+  bold color like text: 1
+  check versions at start: 1
+  close terminal on disconnect: ''
+  close to tray: ''
+  command prompt: '[#%\$>]|\:\/\s*$'
+  confirm chains: 1
+  confirm exit: 1
+  connected color: '#0c0cbaba0000'
+  ctrl tab: last
+  cursor shape: block
+  debug: ''
+  disable ALT key bindings: ''
+  disable CTRL key bindings: ''
+  disable SHIFT key bindings: ''
+  disconnected color: '#ffff00000000'
+  enable tree lines: 1
+  global variables: {}
+  gui password: ''
+  hide connections submenu: ''
+  hide on connect: ''
+  hostkey changed prompt: '^.+ontinue connecting \((.+)\/(.+)\)\?\s*$'
+  how to switch tabs: ''
+  info font: monospace
+  keepass:
+    ask_user: ''
+    database: /home/gavin
+    password: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    use_keepass: ''
+  local commands: []
+  new data color: '#00008888ffff'
+  open connections in tabs: 1
+  password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t](\\s+for\\s+)*|[c|C]ontrase.a|Enter passphrase for key '.+')\\s*:\\s*$"
+  ping port before connect: ''
+  ping port timeout: 1
+  press any key prompt: .*(any key to continue|tecla para continuar).*
+  prevent F11: ''
+  prevent mouse over show tree: ''
+  protected color: '#ffffb0b02222'
+  protected set: background
+  proxy ip: ''
+  proxy pass: ''
+  proxy port: 8080
+  proxy user: ''
+  record command history: 1
+  remember main size: 1
+  remote commands: []
+  remote host changed prompt: .*ffending .*key in (.+?)\:(\d+).*
+  remove control chars: ''
+  save on exit: ''
+  save session logs: ''
+  screenshots external viewer: /usr/bin/xdg-open
+  screenshots use external viewer: ''
+  selection to clipboard: 1
+  session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+  session logs amount: 10
+  session logs folder: /home/gavin/.config/pac/session_logs
+  shell binary: /bin/bash
+  shell directory: /home/gavin
+  shell options: -login
+  show commands box: 0
+  show connections tooltips: ''
+  show favourites in unity: ''
+  show global commands box: ''
+  show screenshots: 1
+  show statistics: 1
+  show tray icon: 1
+  skip first chain expect: 1
+  sort groups first: 1
+  start PAC tree on: connections
+  start at session startup: 0
+  start iconified: ''
+  start main maximized: ''
+  start maximized: 1
+  sudo password: 53616c7465645f5f3132333435363738246b8c24e7c1a87e58018a4945fd0de0
+  sudo prompt: '[__PAC__SUDO__PROMPT__]'
+  sudo show password: ''
+  tabs in main window: 1
+  tabs position: top
+  terminal backspace: auto
+  terminal character encoding: UTF-8
+  terminal emulation: xterm
+  terminal font: Monospace 9
+  terminal scrollback lines: 5000
+  terminal show status bar: 1
+  terminal transparency: 0
+  terminal windows hsize: 800
+  terminal windows vsize: 600
+  text color: '#cc62cc62cc62'
+  timeout command: 60
+  timeout connect: 40
+  tree font: Normal
+  tree on right side: ''
+  unsplit disconnected terminals: ''
+  use bw icon: ''
+  use gui password: ''
+  use gui password tray: ''
+  use login shell to connect: ''
+  use proxy: ''
+  use system proxy: 1
+  username prompt: '([l|L]ogin|[u|U]suario|([u|U]ser-?)*[n|N]ame.*|[u|U]ser)\s*:\s*$'
+  version: 4.5.5.7
+  visible bell: ''
+  when no more tabs: 0
+  word characters: \.:_\/-A-Za-z0-9
+environments:
+  __PAC_SHELL__:
+    KPX title regexp: .*PACShell.*
+    _protected: 0
+    auth fallback: 1
+    auth type: manual
+    autoreconnect: 0
+    autossh: 0
+    cluster: []
+    description: PACShell
+    embed: 0
+    expect: []
+    favourite: 0
+    ip: bash
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: PACShell
+    name: PACShell
+    options: ''
+    parent: __PAC__ROOT__
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: ''
+    quote command: 0
+    remove control chars: 0
+    save session logs: 0
+    screenshots: []
+    search pass on KPX: 0
+    send slow: 0
+    send string active: 0
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: PACShell_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/gavin/.config/pac/session_logs
+    startup launch: 0
+    startup script: 0
+    startup script name: ''
+    terminal options:
+      audible bell: 0
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '(\]\#|\$\s)+'
+      cursor shape: block
+      disable ALT key bindings: 0
+      disable CTRL key bindings: 0
+      disable SHIFT key bindings: 0
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: 0
+      use tab back color: 0
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: 0
+    title: PACShell
+    use prepend command: 0
+    use proxy: 0
+    use sudo: 0
+    user: ''
+    variables: []
+  __PAC__ROOT__:
+    children:
+      cf2083e4-070f-4de5-9b0f-538e28f361da: 1
+    cluster: []
+    expect: []
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    screenshots: []
+    variables: []
+  cf2083e4-070f-4de5-9b0f-538e28f361da:
+    _is_group: 1
+    _protected: 0
+    children:
+      dc19d567-70c2-4126-9afa-4946daa4075b: 1
+    description: Connection group 'SAMHSA RHHT'
+    name: SAMHSA RHHT
+    parent: __PAC__ROOT__
+    screenshots: []
+  dc19d567-70c2-4126-9afa-4946daa4075b:
+    KPX title regexp: '.*SAMHSA RHHT - web1.*'
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: publickey
+    autoreconnect: ''
+    autossh: ''
+    cluster:
+      - SAMHSA RHHT Cluster
+    description: Connection with 'proxy'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: 96.127.65.47
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: proxy
+    options: ' -X'
+    parent: cf2083e4-070f-4de5-9b0f-538e28f361da
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a6137c97bfb356618305e43dfcda0ce4
+    passphrase user: genge302
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /home/gavin
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots:
+      - /home/gavin/.config/pac/screenshots/pac_screenshot_108960370.219671.jpg
+      - /home/gavin/.config/pac/screenshots/pac_screenshot_40889534.0886569.jpg
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/gavin/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: 'SAMHSA RHHT - proxy'
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: genge302
+    variables: []
+tmp:
+  changed: 0
+  log file: /home/gavin/.config/pac/tmp/pac_PID10644_n4.txt
+  socket: /home/gavin/.config/pac/sockets/pac_PID10644_n4.socket
+  socket exec: /home/gavin/.config/pac/sockets/pac_PID10644_n4.exec.socket
+  tray available: warning
+  uuid: pac_PID10644_n4
