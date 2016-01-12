@@ -1,7 +1,7 @@
 #!/bin/sh
 ##echo 'in .sh_custom'
 
-alias misc="cd /_/Workspace/misc/;ls;"
+alias misc="cd ~/workspace/misc/;ls;"
 alias _="cd /_/;ls;"
 
 #if /gavin/ exists: alias composer="php /home/gavin/bin/composer.phar"
