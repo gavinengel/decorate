@@ -16,6 +16,7 @@ ln -sf ~/decorate/sh/gavin/aliases/.bash_custom ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.zsh_common ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.zsh_custom ~/;
 ln -sf ~/decorate/sh/gavin/aliases/.zshrc ~/;
+rm -rf ~/.gconf; ln -sf ~/decorate/sh/gavin/aliases/.gconf ~/;
 
 ## then, add to end of .bash_profile:
 # source ~/.sh_common

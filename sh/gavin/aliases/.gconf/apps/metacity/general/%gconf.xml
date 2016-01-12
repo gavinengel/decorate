@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="focus_mode" mtime="1449676660" type="string">
+		<stringvalue>mouse</stringvalue>
+	</entry>
+</gconf>

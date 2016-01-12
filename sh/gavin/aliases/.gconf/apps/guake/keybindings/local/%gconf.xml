@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="clipboard_paste" mtime="1452615368" type="string">
+		<stringvalue>&lt;Primary&gt;v</stringvalue>
+	</entry>
+	<entry name="clipboard_copy" mtime="1452615366" type="string">
+		<stringvalue>&lt;Primary&gt;c</stringvalue>
+	</entry>
+</gconf>
