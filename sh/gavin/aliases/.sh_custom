@@ -27,7 +27,7 @@ alias lazygit="git pull; git add -A; git commit -m '.'; git push; "
 # sudo usermod -a -G www apache; # RHEL / Apache
 # the sudo find commands cause a lot of git modifications:  sudo find /var/www -type d -exec chmod 2775 {} +; sudo find /var/www -type f -exec chmod 0664 {} +;
 # sudo useradd -rM www -g www 2>/dev/null;
-alias wwwperm="sudo useradd -rM www -g www 2>/dev/null; sudo chown -R www:www /var/www ;"
+alias wwwpermubuntu="sudo useradd -rM www -g www 2>/dev/null; sudo chown -R www-data:www /var/www ;" 
 
 # docker perms
 alias containerperm="sudo useradd -rM container -g container 2>/dev/null; sudo mkdir /mnt/container 2>/dev/null; sudo chown -R container:container /mnt/container ;"
