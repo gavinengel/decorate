@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+<xbel version="1.0" xmlns:midori="http://www.twotoasts.de">
+<info>
+<metadata owner="http://www.twotoasts.de"/>
+</info>
+<bookmark href="https://soundcloud.com/connect?client_id=02gUJC0hH2ct1EGOcYXQIzRFU91c72Ea&amp;response_type=token&amp;scope=non-expiring%20fast-connect%20purchase%20upload&amp;display=next&amp;redirect_uri=https%3A//soundcloud.com/soundcloud-callback.html">
+<title>‪Authorize access to your account on SoundCloud - Create, record and share your sounds for free</title>
+<info>
+<metadata midori:history-step="2" midori:icon="https://a1.sndcdn.com/favicon.ico?1412881631" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="https://accounts.google.com/o/oauth2/auth?&amp;access_type=offline&amp;origin=https://soundcloud.com&amp;response_type=code+token+id_token+gsession&amp;client_id=984739005367.apps.googleusercontent.com&amp;proxy=oauth2relay633947207&amp;after_redirect=keep_open&amp;scope=https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/plus.login+https://www.googleapis.com/auth/userinfo.profile&amp;request_visible_actions=http://schemas.google.com/AddActivity+http://schemas.google.com/ListenActivity+http://schemas.google.com/CreateActivity&amp;redirect_uri=postmessage&amp;state=482154102%7C0.464073765&amp;cookie_policy=single_host_origin&amp;include_granted_scopes=true&amp;hl=en-US&amp;from_login=1&amp;as=603bc5688b75a09b">
+<title>‪Connecting ...</title>
+<info>
+<metadata midori:history-step="2" midori:icon="https://accounts.google.com/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="https://soundcloud.com/soundcloud-callback.html?#access_token=1-138878-71492777-13b049046fa546&amp;scope=non-expiring+fast-connect+purchase+upload">
+<title>‪Connect with SoundCloud</title>
+<info>
+<metadata midori:history-step="2" midori:icon="https://soundcloud.com/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="https://accounts.google.com/o/oauth2/auth?client_id=984739005367.apps.googleusercontent.com&amp;redirect_uri=postmessage&amp;response_type=code%20token%20id_token%20gsession&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&amp;state=863509479%7C0.1989871511&amp;access_type=offline&amp;request_visible_actions=http%3A%2F%2Fschemas.google.com%2FAddActivity%20http%3A%2F%2Fschemas.google.com%2FListenActivity%20http%3A%2F%2Fschemas.google.com%2FCreateActivity&amp;after_redirect=keep_open&amp;cookie_policy=single_host_origin&amp;include_granted_scopes=true&amp;proxy=oauth2relay539949605&amp;origin=https%3A%2F%2Fsoundcloud.com&amp;">
+<title>‪Connecting ...</title>
+<info>
+<metadata midori:history-step="2" midori:icon="https://accounts.google.com/favicon.ico" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+</xbel>

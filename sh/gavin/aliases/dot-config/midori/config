@@ -1,0 +1,11 @@
+[settings]
+default-encoding=ISO-8859-1
+enable-site-specific-quirks=true
+last-window-width=988
+last-window-height=568
+last-window-state=MIDORI_WINDOW_MAXIMIZED
+homepage=file:///usr/share/ubuntu-artwork/home/index.html
+show-crash-dialog=false
+location-entry-search=https://duckduckgo.com/?q=%s
+enable-html5-database=true
+user-agent=Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-us) AppleWebKit/537+ (KHTML, like Gecko) Version/5.0 Safari/537.6+ Midori/0.4

@@ -1,0 +1,15 @@
+[settings]
+columns=3
+rows=3
+
+[Dial 1]
+uri=https://soundcloud.com/stream
+title=‪▶ Cristian Daniel Feat. Mary Dee - Never Fall (MBP Remix) by MBP.MustBePlayed
+
+[Dial 2]
+uri=http://rhht.develop/auth/login
+title=‪Rapid Testing Data Collection System
+
+[Dial 3]
+uri=https://www.google.com/?gws_rd=ssl
+title=‪Google
