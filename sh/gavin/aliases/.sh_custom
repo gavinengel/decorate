@@ -7,6 +7,7 @@ alias _="cd /_/;ls;"
 #if /gavin/ exists: alias composer="php /home/gavin/bin/composer.phar"
 alias sl=slap;
 #alias subl=sublime3;
+alias sloc="find . -name '*.*' | xargs wc -l";
 
 alias giff='git difftool -g ';
 #alias rm="echo 'use trash instead! #'"

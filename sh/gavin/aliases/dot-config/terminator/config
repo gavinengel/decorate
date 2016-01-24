@@ -1,21 +1,23 @@
 [global_config]
   suppress_multiple_term_dialog = True
 [keybindings]
-[profiles]
-  [[default]]
-    use_system_font = False
-    font = Monospace 8
-    background_image = None
-    foreground_color = "#ffffff"
-    copy_on_selection = True
-    background_color = "#630000"
-    scrollback_infinite = True
+  copy = <Primary>c
+  paste = <Primary>v
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#630000"
+    background_image = None
+    copy_on_selection = True
+    font = Monospace 8
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
