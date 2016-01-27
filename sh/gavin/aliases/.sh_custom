@@ -36,3 +36,6 @@ alias containerperm="sudo useradd -rM container -g container 2>/dev/null; sudo m
 
 alias dls='sudo docker ps';
 dssh () { sudo docker exec -i -t "$@" bash; }
+
+
+alias memuse="ps -A --sort -rss -o comm,pmem,rss | head -n 6";
