@@ -7,15 +7,6 @@ git config --global url."https://".insteadOf git://; # solves github timeouts on
 
 ##sudo adduser -m gavin;
 
-ln -sf ~/decorate/sh/gavin/aliases/.bash_profile ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.bashrc ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.sh_common ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.sh_custom ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.bash_common ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.bash_custom ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.zsh_common ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.zsh_custom ~/;
-ln -sf ~/decorate/sh/gavin/aliases/.zshrc ~/;
 rm -rf ~/.gconf; ln -sf ~/decorate/sh/gavin/aliases/.gconf ~/;
 rm -rf ~/.config/terminator; ln -sf ~/decorate/sh/gavin/aliases/dot-config/terminator ~/.config/terminator;
 ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/bookmarks.db ~/.config/midori/;
