@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="check_inputs" mtime="1456171771" type="bool" value="false"/>
+	<entry name="show_preview" mtime="1456171768" type="bool" value="false"/>
+	<entry name="last_open_path" mtime="1456171735" type="string">
+		<stringvalue>/var/www/rhht/100/public/video</stringvalue>
+	</entry>
+</gconf>
