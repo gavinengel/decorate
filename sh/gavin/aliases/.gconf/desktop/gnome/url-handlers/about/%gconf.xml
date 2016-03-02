@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="command" mtime="1452094855" type="string">
-		<stringvalue>/opt/google/chrome-beta/google-chrome-beta %s</stringvalue>
+	<entry name="command" mtime="1456172536" type="string">
+		<stringvalue>/opt/google/chrome/google-chrome %s</stringvalue>
 	</entry>
 </gconf>
