@@ -1,6 +1,18 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="history-fileentry" mtime="1458072998" type="list" ltype="string">
+	<entry name="history-fileentry" mtime="1458596194" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/database/seeds/UserTableSeeder.php</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/database/seeds/OrganizationTableSeeder.php</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/public/css/ace.css</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/app/Handlers/Events/UserEventHandler.php</stringvalue>
+		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/resources/views/emails/password.blade.php</stringvalue>
 		</li>
@@ -15,18 +27,6 @@
 		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/master/database/seeds/OrganizationTableSeeder.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/master/app/Console/Kernel.php.REMOTE.4923.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.sh_custom.REMOTE.3967.sh_custom</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/projects/rhht/develop/app/Http/Controllers/Traits/DataTableTrait.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/home/gavin/Desktop/DataTableTrait-new.php</stringvalue>
 		</li>
 	</entry>
 </gconf>

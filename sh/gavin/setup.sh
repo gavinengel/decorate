@@ -13,9 +13,9 @@ ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/bookmarks.db ~/.config/mido
 ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/speeddial ~/.config/midori/;
 ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/config ~/.config/midori/;
 
-gsettings set org.gnome.desktop.wm.preferences auto-raise true;
+gsettings set org.gnome.desktop.wm.preferences auto-raise false;
 gsettings set org.gnome.desktop.wm.preferences focus-mode sloppy;
-gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 100;
+# gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 500;
 
 ## then, add to end of .bash_profile:
 # source ~/.sh_common
