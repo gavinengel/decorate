@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="history-fileentry" mtime="1458596194" type="list" ltype="string">
+	<entry name="history-fileentry" mtime="1458848389" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/resources/views/emails/invite.blade.php</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/app/Providers/ConfigServiceProvider.php</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/app/Http/Controllers/Auth/PasswordController.php</stringvalue>
+		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/database/seeds/UserTableSeeder.php</stringvalue>
 		</li>
@@ -18,15 +27,6 @@
 		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/resources/views/includes/footer.blade.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/app/Commands/User/ActivateUser.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/feature/191/index2.html</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/master/database/seeds/OrganizationTableSeeder.php</stringvalue>
 		</li>
 	</entry>
 </gconf>

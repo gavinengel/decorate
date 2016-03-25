@@ -5,6 +5,6 @@
 	<entry name="show_line_numbers" mtime="1453765270" type="bool" value="true"/>
 	<entry name="highlight_current_line" mtime="1453765269" type="bool" value="true"/>
 	<entry name="spaces_instead_of_tabs" mtime="1453765267" type="bool" value="true"/>
-	<entry name="window_size_y" mtime="1458153957" type="int" value="726"/>
-	<entry name="window_size_x" mtime="1458136942" type="int" value="1600"/>
+	<entry name="window_size_y" mtime="1458848374" type="int" value="777"/>
+	<entry name="window_size_x" mtime="1458848374" type="int" value="1526"/>
 </gconf>

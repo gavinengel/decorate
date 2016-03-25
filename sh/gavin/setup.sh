@@ -17,6 +17,8 @@ gsettings set org.gnome.desktop.wm.preferences auto-raise false;
 gsettings set org.gnome.desktop.wm.preferences focus-mode sloppy;
 # gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 500;
 
+sudo crudini --set /etc/xdg/autostart/update-notifier.desktop 'Desktop Entry' Hidden true;
+
 ## then, add to end of .bash_profile:
 # source ~/.sh_common
 
