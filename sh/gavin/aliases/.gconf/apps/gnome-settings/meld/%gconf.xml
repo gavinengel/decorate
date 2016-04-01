@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="history-fileentry" mtime="1458848389" type="list" ltype="string">
+	<entry name="history-fileentry" mtime="1459457072" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/resources/assets/js/form.js</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/public/js/new/bootstrap-session-timeout.js</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/var/www/rhht/100/public/js/bootstrap-session-timeout.min.js</stringvalue>
+		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/resources/views/emails/invite.blade.php</stringvalue>
 		</li>
@@ -18,15 +27,6 @@
 		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/public/css/ace.css</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/app/Handlers/Events/UserEventHandler.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/resources/views/emails/password.blade.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/resources/views/includes/footer.blade.php</stringvalue>
 		</li>
 	</entry>
 </gconf>
