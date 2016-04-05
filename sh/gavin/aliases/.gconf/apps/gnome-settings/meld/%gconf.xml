@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="history-fileentry" mtime="1459457072" type="list" ltype="string">
+	<entry name="history-fileentry" mtime="1459786375" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.gconf/apps/gnome-terminal/profiles/Profile0/%gconf.xml</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml</stringvalue>
+		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/resources/assets/js/form.js</stringvalue>
 		</li>
@@ -21,12 +27,6 @@
 		</li>
 		<li type="string">
 			<stringvalue>/var/www/rhht/100/database/seeds/UserTableSeeder.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/database/seeds/OrganizationTableSeeder.php</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/rhht/100/public/css/ace.css</stringvalue>
 		</li>
 	</entry>
 </gconf>
