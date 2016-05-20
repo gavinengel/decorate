@@ -1,5 +1,7 @@
 [global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   window_state = maximise
+  title_transmit_bg_color = "#580001"
   suppress_multiple_term_dialog = True
 [keybindings]
   copy = <Primary>c
@@ -11,7 +13,7 @@
     background_image = None
     foreground_color = "#ffffff"
     copy_on_selection = True
-    background_color = "#791114"
+    background_color = "#420001"
     scrollback_infinite = True
 [layouts]
   [[default]]
@@ -21,4 +23,36 @@
     [[[window0]]]
       parent = ""
       type = Window
+  [[Trio]]
+    [[[child0]]]
+      position = 0:27
+      type = Window
+      order = 0
+      parent = ""
+      size = 1680, 906
+    [[[child1]]]
+      position = 489
+      type = HPaned
+      order = 0
+      parent = child0
+    [[[child3]]]
+      position = 659
+      type = HPaned
+      order = 1
+      parent = child1
+    [[[terminal2]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child1
+    [[[terminal5]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child3
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child3
 [plugins]

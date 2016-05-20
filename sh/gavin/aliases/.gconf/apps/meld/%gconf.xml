@@ -1,10 +1,22 @@
 <?xml version="1.0"?>
 <gconf>
+	<entry name="custom_font" mtime="1461178514" type="string">
+		<stringvalue>Monospace 8</stringvalue>
+	</entry>
+	<entry name="use_custom_font" mtime="1461178507" type="bool" value="true"/>
+	<entry name="regexes" mtime="1460735396" type="string">
+		<stringvalue>CVS keywords	0	\$\w+(:[^\n$]+)?\$
+C++ comment	0	//.*
+C comment	0	/\*.*?\*/
+All whitespace	1	[ \t\r\f\v]*
+Leading whitespace	0	^[ \t\r\f\v]*
+Script comment	0	#.*</stringvalue>
+	</entry>
 	<entry name="use_syntax_highlighting" mtime="1453765272" type="bool" value="true"/>
-	<entry name="show_whitespace" mtime="1453765279" type="bool" value="false"/>
+	<entry name="show_whitespace" mtime="1460735419" type="bool" value="false"/>
 	<entry name="show_line_numbers" mtime="1453765270" type="bool" value="true"/>
 	<entry name="highlight_current_line" mtime="1453765269" type="bool" value="true"/>
 	<entry name="spaces_instead_of_tabs" mtime="1453765267" type="bool" value="true"/>
-	<entry name="window_size_y" mtime="1459786340" type="int" value="957"/>
-	<entry name="window_size_x" mtime="1459377542" type="int" value="1680"/>
+	<entry name="window_size_y" mtime="1462465485" type="int" value="756"/>
+	<entry name="window_size_x" mtime="1462298620" type="int" value="1526"/>
 </gconf>

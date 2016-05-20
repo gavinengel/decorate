@@ -1,0 +1,14 @@
+[user]
+	name = Gavin Engel
+	email = gavin@engel.com
+[push]
+	default = simple
+[url "https://"]
+	insteadOf = git://
+[alias]
+	a = add
+	s = status
+	st = status
+	ci = commit -v
+	unadd = reset
+	uncommit = reset --soft HEAD^
