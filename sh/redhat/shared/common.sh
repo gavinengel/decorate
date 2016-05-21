@@ -13,6 +13,8 @@ sudo dnf install clamav -y;
 sudo dnf install tree p7zip -y;
 sudo dnf install subversion -y;
 sudo dnf install git-core -y;
+sudo dnf install gcc-c++;
+
 
 # assorted stuff
 sudo dnf install whois rpl ps_mem -y;
