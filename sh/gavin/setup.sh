@@ -12,15 +12,43 @@ rm -rf ~/.config/terminator; ln -sf ~/decorate/sh/gavin/aliases/dot-config/termi
 #ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/bookmarks.db ~/.config/midori/;
 #ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/speeddial ~/.config/midori/;
 #ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/config ~/.config/midori/;
-rm -rf ~/.gitconfig; ln -sf ~/decorate/sh/gavin/aliases/.gitconfig ~/;
 
 
 gsettings set org.gnome.desktop.wm.preferences auto-raise false;
 gsettings set org.gnome.desktop.wm.preferences focus-mode sloppy;
 # gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 500;
 
-sudo crudini --set /etc/xdg/autostart/update-notifier.desktop 'Desktop Entry' Hidden true;
 sudo crudini --set /etc/default/apport '' enabled 0;
+
+sudo crudini --set /etc/xdg/autostart/abrt-applet.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-keyring-ssh.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/pulseaudio.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-miner-user-guides.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/at-spi-dbus-bus.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-settings-daemon.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/sealertauto.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-store.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/caribou-autostart.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-software-service.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/spice-vdagent.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/update-notifier.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/gnome-welcome-tour.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-extract.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/user-dirs-update-gtk.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-initial-setup-first-login.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gsettings-data-convert.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-miner-apps.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/vmware-user.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-keyring-pkcs11.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/nautilus-autostart.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-miner-fs.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/xdg-user-dirs.desktop 'Desktop Entry' Hidden true;
+#sudo crudini --set /etc/xdg/autostart/gnome-keyring-secrets.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/orca-autostart.desktop 'Desktop Entry' Hidden true;
+sudo crudini --set /etc/xdg/autostart/tracker-miner-rss.desktop 'Desktop Entry' Hidden true;
+
+
 
 ## then, add to end of .bash_profile:
 # source ~/.sh_common
