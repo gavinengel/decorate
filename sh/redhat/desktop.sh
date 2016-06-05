@@ -77,3 +77,5 @@ gsettings set org.gnome.software download-updates false;
 # for npm slap
 sudo dnf install xclip -y;
 
+# Gnome Bijiben caused crazy CPU usage 2016-06-05
+sudo yum rm bijiben -y;
