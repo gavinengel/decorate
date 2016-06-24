@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="allow_bold" mtime="1465224615" type="bool" value="false"/>
-	<entry name="default_size_rows" mtime="1465224615" type="int" value="999"/>
-	<entry name="default_size_columns" mtime="1465224615" type="int" value="999"/>
-	<entry name="use_custom_default_size" mtime="1465224615" type="bool" value="true"/>
-	<entry name="background_darkness" mtime="1465224615" type="float" value="0.90064799785614014"/>
+	<entry name="allow_bold" mtime="1466774693" type="bool" value="false"/>
+	<entry name="default_size_rows" mtime="1466774693" type="int" value="999"/>
+	<entry name="default_size_columns" mtime="1466774693" type="int" value="999"/>
+	<entry name="use_custom_default_size" mtime="1466774693" type="bool" value="true"/>
+	<entry name="background_darkness" mtime="1466774693" type="float" value="0.90064799785614014"/>
 	<entry name="background_type" mtime="1460138944" type="string">
 		<stringvalue>solid</stringvalue>
 	</entry>
-	<entry name="use_theme_colors" mtime="1465224615" type="bool" value="false"/>
-	<entry name="silent_bell" mtime="1465224615" type="bool" value="true"/>
-	<entry name="font" mtime="1465224615" type="string">
+	<entry name="use_theme_colors" mtime="1466774693" type="bool" value="false"/>
+	<entry name="silent_bell" mtime="1466774693" type="bool" value="true"/>
+	<entry name="font" mtime="1466774693" type="string">
 		<stringvalue>Monospace 8</stringvalue>
 	</entry>
 	<entry name="use_system_font" mtime="1458853217" type="bool" value="true"/>
-	<entry name="scrollback_unlimited" mtime="1465224615" type="bool" value="true"/>
-	<entry name="palette" mtime="1465224615" type="string">
-		<stringvalue>#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</stringvalue>
+	<entry name="scrollback_unlimited" mtime="1466774693" type="bool" value="true"/>
+	<entry name="palette" mtime="1466774693" type="string">
+		<stringvalue>#000000000000:#CDCD00000000:#0000CDCD0000:#CDCDCDCD0000:#00000000CDCD:#CDCD0000CDCD:#0000CDCDCDCD:#FAFAEBEBD7D7:#404040404040:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#00000000FFFF:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
 	</entry>
-	<entry name="alternate_screen_scroll" mtime="1465224615" type="bool" value="true"/>
-	<entry name="background_color" mtime="1465224615" type="string">
-		<stringvalue>#169E01981C28</stringvalue>
+	<entry name="alternate_screen_scroll" mtime="1466774693" type="bool" value="true"/>
+	<entry name="background_color" mtime="1466774693" type="string">
+		<stringvalue>#072212C50AFC</stringvalue>
 	</entry>
-	<entry name="visible_name" mtime="1465224615" type="string">
+	<entry name="visible_name" mtime="1466774693" type="string">
 		<stringvalue>Default</stringvalue>
 	</entry>
-	<entry name="bold_color" mtime="1465224615" type="string">
+	<entry name="bold_color" mtime="1466774693" type="string">
 		<stringvalue>#000000000000</stringvalue>
 	</entry>
-	<entry name="foreground_color" mtime="1465224615" type="string">
+	<entry name="foreground_color" mtime="1466774693" type="string">
 		<stringvalue>#FFFFFFFFFFFF</stringvalue>
 	</entry>
 </gconf>
