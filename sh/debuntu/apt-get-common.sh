@@ -8,10 +8,8 @@ sudo apt-get install vim rpl -y; # leave off 'vi'
 #gets gtk as well!# sudo apt-get install clamav clamtk -y;
 #gets gtk as well!# sudo apt-get install nmap zenmap -y;
 sudo apt-get install tree rar -y;
-sudo apt-get install subversion -y;
 sudo apt-get install locate -y;
 sudo apt-get install git-core -y;
-sudo apt-get install php5-cli -y;
 
 # assorted stuff
 sudo apt-get install whois -y;
