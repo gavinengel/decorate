@@ -3,7 +3,7 @@
 sudo apt-get update;
 
 # u better have this fool
-sudo apt-get install vim rpl -y; # leave off 'vi'
+sudo apt-get install vim rpl curl -y; # leave off 'vi'
 
 #gets gtk as well!# sudo apt-get install clamav clamtk -y;
 #gets gtk as well!# sudo apt-get install nmap zenmap -y;
