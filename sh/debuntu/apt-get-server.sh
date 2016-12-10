@@ -3,23 +3,23 @@ sudo locale-gen en_US.UTF-8;
 #sudo apt-get update;
 sudo apt-get install man locate make vim -y; # stuff everyone should have!
 sudo apt-get install ssh -y;
-sudo apt-get install heirloom-mailx -y; # for CLI email sending (bsd-mailx doesn't support -r), example: # mailx -s "Testing email via mailx" -r sender@example.com destination@gmail.com < ~/.bashrc
+#sudo apt-get install heirloom-mailx -y; # for CLI email sending (bsd-mailx doesn't support -r), example: # mailx -s "Testing email via mailx" -r sender@example.com destination@gmail.com < ~/.bashrc
 sudo apt-get install powertop iotop nethogs iptraf -y; # tops/memory/traffic monitoring
 sudo apt-get install ufw -y;
-sudo apt-get install apache2 libapache2-mod-auth-mysql  mysql-server -y;
-sudo apt-get install apache2-suexec -y; # fixes: Warning: SuexecUserGroup directive requires SUEXEC wrapper.
-sudo apt-get install libapache2-mod-fcgid -y; # fixes: Cannot load /usr/lib/apache2/modules/mod_fcgid.so into server:
+#sudo apt-get install apache2 libapache2-mod-auth-mysql  mysql-server -y;
+#sudo apt-get install apache2-suexec -y; # fixes: Warning: SuexecUserGroup directive requires SUEXEC wrapper.
+#sudo apt-get install libapache2-mod-fcgid -y; # fixes: Cannot load /usr/lib/apache2/modules/mod_fcgid.so into server:
 # ##root@brnz:/etc/apache2/sites-available# replace 'SuexecUserGroup' '#SuexecUserGroup' -- *  ## How-To: Fix “command not in docroot” suexec apache error
-sudo apt-get install dovecot-common -y; # instead of apt-get install postfix (this is for virtualmin)
+#sudo apt-get install dovecot-common -y; # instead of apt-get install postfix (this is for virtualmin)
 
 #below line confilicts with zend-server:#
 sudo apt-get install lamp-server^;
-sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl mcrypt php5-mcrypt php-pear php5-xdebug php5-xsl -y;
-sudo php5enmod mcrypt -y;
+#sudo apt-get install php5 php-apc  php5-mysql  php5-gd php5-curl mcrypt php5-mcrypt php-pear php5-xdebug php5-xsl -y;
+#sudo php5enmod mcrypt -y;
 
 ## begin php cacheing
-sudo apt-get install php5-dev libpcre3-dev libmagic-dev memcached php5-memcache -y;
-sudo apt-get install php-apc -y;
+#sudo apt-get install php5-dev libpcre3-dev libmagic-dev memcached php5-memcache -y;
+#sudo apt-get install php-apc -y;
 sudo /etc/init.d/apache2 restart;
 
 #[memcached]
@@ -68,16 +68,6 @@ sudo /etc/init.d/apache2 restart;
 sudo apt-get install unzip p7zip -y;
 sudo apt-get install lynx elinks -y;
 sudo apt-get install rsync -y;
-
-# UFW #
-sudo ufw enable;
-sudo ufw allow 22/tcp;
-sudo ufw allow 80/tcp;
-sudo ufw allow 443/tcp;
-sudo ufw allow 443/tcp;  
-sudo ufw allow 10000/tcp; # virtualmin
-sudo ufw allow 20000/tcp; # usermin
-sudo ufw allow 3306/tcp; # mysql
 
 
 #apache mods
@@ -139,7 +129,6 @@ sudo apt-get install chkrootkit -y;
 #sudo rm /var/www/index.html;
 
 #fin.
-sudo apt-get autoremove -y;
 
 
 # issues!
