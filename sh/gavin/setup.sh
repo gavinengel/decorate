@@ -13,10 +13,10 @@ rm -rf ~/.config/terminator; ln -sf ~/decorate/sh/gavin/aliases/dot-config/termi
 #ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/speeddial ~/.config/midori/;
 #ln -sf ~/decorate/sh/gavin/aliases/dot-config/midori/config ~/.config/midori/;
 
-
-gsettings set org.gnome.desktop.wm.preferences auto-raise false;
+# http://worldofgnome.org/how-to-set-focus-follows-mouse-in-gnome-3-windows/
+gsettings set org.gnome.desktop.wm.preferences auto-raise true;
 gsettings set org.gnome.desktop.wm.preferences focus-mode sloppy;
-# gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 500;
+gsettings set org.gnome.desktop.wm.preferences auto-raise-delay 300;
 
 sudo crudini --set /etc/default/apport '' enabled 0;
 

@@ -17,6 +17,6 @@ Script comment	0	#.*</stringvalue>
 	<entry name="show_line_numbers" mtime="1453765270" type="bool" value="true"/>
 	<entry name="highlight_current_line" mtime="1453765269" type="bool" value="true"/>
 	<entry name="spaces_instead_of_tabs" mtime="1453765267" type="bool" value="true"/>
-	<entry name="window_size_y" mtime="1469041998" type="int" value="906"/>
-	<entry name="window_size_x" mtime="1469041998" type="int" value="1680"/>
+	<entry name="window_size_y" mtime="1485196370" type="int" value="932"/>
+	<entry name="window_size_x" mtime="1485196370" type="int" value="1048"/>
 </gconf>
