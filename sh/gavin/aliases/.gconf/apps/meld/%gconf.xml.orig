@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="ignore_blank_lines" mtime="1473801872" type="bool" value="false"/>
 	<entry name="custom_font" mtime="1461178514" type="string">
 		<stringvalue>Monospace 8</stringvalue>
 	</entry>
@@ -18,6 +17,6 @@ Script comment	0	#.*</stringvalue>
 	<entry name="show_line_numbers" mtime="1453765270" type="bool" value="true"/>
 	<entry name="highlight_current_line" mtime="1453765269" type="bool" value="true"/>
 	<entry name="spaces_instead_of_tabs" mtime="1453765267" type="bool" value="true"/>
-	<entry name="window_size_y" mtime="1485196370" type="int" value="932"/>
-	<entry name="window_size_x" mtime="1485196370" type="int" value="1048"/>
+	<entry name="window_size_y" mtime="1485197872" type="int" value="933"/>
+	<entry name="window_size_x" mtime="1485197922" type="int" value="1048"/>
 </gconf>

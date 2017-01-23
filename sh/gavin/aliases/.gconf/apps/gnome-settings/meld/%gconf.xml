@@ -1,6 +1,15 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="history-fileentry" mtime="1485196415" type="list" ltype="string">
+	<entry name="history-fileentry" mtime="1485197947" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.gconf/apps/gnome-terminal/profiles/Profile0/%gconf.xml.REMOTE.1454.xml</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml.REMOTE.1454.xml</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/home/gavin/decorate/sh/gavin/aliases/.gconf/apps/gnome-settings/meld/%gconf.xml.REMOTE.1454.xml</stringvalue>
+		</li>
 		<li type="string">
 			<stringvalue>/var/www/zika-travwell/develop/TravWell/scripts/models/vaccinations.js</stringvalue>
 		</li>
@@ -18,15 +27,6 @@
 		</li>
 		<li type="string">
 			<stringvalue>/var/www/zika-travwell/develop/TravWell/scripts/libs/sqlLib.js</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/zika-travwell/develop/TravWell/scripts/custom.js</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/zika-travwell/develop/TravWell/components/vaccinationsView/view.html</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/var/www/zika-travwell/develop/TravWell/components/vaccinationsView/index.js</stringvalue>
 		</li>
 	</entry>
 	<entry name="history-direntry" mtime="1462461949" type="list" ltype="string">
