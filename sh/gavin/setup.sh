@@ -59,3 +59,5 @@ npm config set init.author.url http://www.gavinengel.com/
 npm config set init.license MIT
 npm set progress=false; # https://twitter.com/gavinjoyce/status/691773956144119808
 
+# GPG
+ln -sfn ~/keys/.gnupg ~/.gnupg;
