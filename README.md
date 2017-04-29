@@ -14,3 +14,9 @@ For new Linux installations. Install packages for server and/or desktop.  Setup 
 1. # install stuff in ~/bin/lib
 1. # install Google Chrome
 1. ~/decorate/sh/gavin/setup.sh;
+
+## Other repos
+1. gitlab Documents
+1. gitlab Pictures
+1. gitlab Workspace
+1. gitlab keys
