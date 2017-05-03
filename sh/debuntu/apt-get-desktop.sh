@@ -8,7 +8,7 @@ sudo apt-get update;
 #sudo apt-get install deja-dup -y;
 #sudo apt-get install libreoffice -y;
 #sudo apt-get install aria2 -y; # get metalink downloads
-sudo apt-get install thunar -y;
+#sudo apt-get install thunar -y;
 #sudo apt-get install transmission -y;
 #sudo apt-get install ttf-aenigma -y;
 #sudo apt-get install xcalib numlockx -y;
@@ -16,7 +16,7 @@ sudo apt-get install gedit geany -y;
 #sudo apt-get install sound-juicer easytag -y;
 #sudo apt-get install filezilla -y;
 
-sudo apt-get install flashplugin-nonfree -y;
+#sudo apt-get install flashplugin-nonfree -y;
 # photos
 #sudo apt-get install gimp gimp-plugin-registry mypaint evince eog -y;
 # gnome shell stuffs

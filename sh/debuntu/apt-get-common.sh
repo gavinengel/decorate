@@ -9,7 +9,7 @@ sudo apt-get install vim rpl curl -y; # leave off 'vi'
 #gets gtk as well!# sudo apt-get install nmap zenmap -y;
 sudo apt-get install tree rar -y;
 sudo apt-get install locate -y;
-sudo apt-get install git-core -y;
+#sudo apt-get install git-core -y;
 
 # assorted stuff
 sudo apt-get install whois -y;
