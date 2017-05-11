@@ -13,6 +13,6 @@ sudo apt-get install locate -y;
 
 # assorted stuff
 sudo apt-get install whois -y;
-sudo apt-get install ack-grep -y;sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep;
+sudo apt-get install ack-grep -y;#sudo dpkg-divert --local --divert /usr/bin/ack --rename --add /usr/bin/ack-grep;
 sudo apt-get install ruby ruby-dev -y;
 sudo apt-get install g++ -y;

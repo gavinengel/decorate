@@ -4,7 +4,7 @@ sudo locale-gen en_US.UTF-8;
 sudo apt-get install man locate make vim -y; # stuff everyone should have!
 sudo apt-get install ssh -y;
 #sudo apt-get install heirloom-mailx -y; # for CLI email sending (bsd-mailx doesn't support -r), example: # mailx -s "Testing email via mailx" -r sender@example.com destination@gmail.com < ~/.bashrc
-sudo apt-get install powertop iotop nethogs iptraf -y; # tops/memory/traffic monitoring
+#sudo apt-get install powertop iotop nethogs iptraf -y; # tops/memory/traffic monitoring
 sudo apt-get install ufw -y;
 #sudo apt-get install apache2 libapache2-mod-auth-mysql  mysql-server -y;
 #sudo apt-get install apache2-suexec -y; # fixes: Warning: SuexecUserGroup directive requires SUEXEC wrapper.
@@ -65,8 +65,8 @@ sudo /etc/init.d/apache2 restart;
 
 ## end php cacheing
 
-sudo apt-get install unzip p7zip -y;
-sudo apt-get install lynx elinks -y;
+sudo apt-get install unzip  -y;
+#sudo apt-get install lynx elinks -y;
 sudo apt-get install rsync -y;
 
 
@@ -123,8 +123,8 @@ sudo a2enmod ssl;
 
 
 #rootkit stuff
-sudo apt-get install rkhunter -y;
-sudo apt-get install chkrootkit -y;
+#sudo apt-get install rkhunter -y;
+#sudo apt-get install chkrootkit -y;
 
 #sudo rm /var/www/index.html;
 
